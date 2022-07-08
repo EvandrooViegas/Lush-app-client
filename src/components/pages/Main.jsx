@@ -102,7 +102,10 @@ function Dashboard() {
         </div>
 
 
-   
+        <div className="inspirationalQuoteContainer">
+          <p>{inspirationalQuote}</p>
+          <p>by {inspirationalQuoteAuthor}</p>
+        </div>
 
         <div className="contentContainer">
           <div className="ideas-container" onClick={() => navigateTo("keep")}>
