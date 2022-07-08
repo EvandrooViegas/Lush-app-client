@@ -1,0 +1,59 @@
+.indicatorButtons {
+    background-color: rgb(245, 245, 245);
+    border: 2px solid rgb(226, 226, 226);
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    height: 10%;
+    width: 50%;
+    line-height: 100%;
+    margin-right: 10px;
+    animation: indicatorButtons .4s ease-in forwards 1 alternate;
+}
+
+
+
+@keyframes indicatorButtons {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.indicatorButtons  button{
+    margin-left: 5px; 
+}
+.verdeIndicator {
+    background-color: green;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.vermelhoIndicator {
+    background-color: red;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.laranjaIndicator {
+    background-color: orange;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}

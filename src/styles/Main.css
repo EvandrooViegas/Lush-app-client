@@ -1,0 +1,97 @@
+.main-contianer {
+
+    margin: 30px;
+}
+
+.main-contianer .topContainer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.welcome-container h3 {
+    font-size: 30px;
+}
+
+.timeContainer {
+    font-size: 25px;
+}
+
+.inspirationalQuoteContainer {
+    padding: 30px;
+    background-color: var(--lightbackground);
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.main-contianer .contentContainer {
+    border-top: var(--background) 4px dotted;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: flex-start;
+}
+
+.ideas-container {
+    margin: 10px;
+    flex: 1;
+    padding: 20px;
+    background-color: var(--lightbackground);
+    border-radius: 10px;
+}
+
+.tasks-container {
+    margin: 10px;
+    flex: 1;
+    padding: 20px;
+    background-color: var(--lightbackground);
+    border-radius: 10px;
+}
+
+.events-container {
+    margin: 10px;
+    flex: 1;
+    padding: 20px;
+    background-color: var(--lightbackground);
+    border-radius: 10px;
+}
+
+.idea-container{
+    background-color: var(--background);
+    border-radius: 7px;
+    padding: 9px;
+    margin: 7px;
+}
+
+.task-container{
+    background-color: var(--background);
+    border-radius: 7px;
+    padding: 9px;
+    margin: 7px;
+}
+
+.event-container{
+    background-color: var(--background);
+    border-radius: 7px;
+    padding: 9px;
+    margin: 7px;
+}
+
+.ideas-container:hover {
+    cursor: pointer;
+    
+}
+
+.events-container:hover {
+    cursor: pointer;
+    
+}
+
+.tasks-container:hover {
+    cursor: pointer;
+    
+}

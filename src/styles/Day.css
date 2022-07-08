@@ -1,0 +1,169 @@
+.indicatorContainerGreen {
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.indicatorContainerRed {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.indicatorContainerOrange {
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+
+
+
+.eventsListContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px;
+
+}
+
+.eventContainer .text {
+   padding: 10px;
+    text-align: right;
+    
+}
+
+
+
+.eventContainer {
+    background-color: var(--background);
+    padding: 5px;
+    border-radius: 3px;
+    margin: 2px;
+    display: flex;
+
+    align-items: center;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.eventContainer:hover {
+    background-color: var(--hovercolor);
+}
+
+
+.top {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+} 
+
+.day {
+    margin: 0;
+    width: 100%;
+    height: 160px;
+
+    /* border: 1px solid var(--bordercolor); */
+    border: 2px solid var(--bordercolor);
+    background-color: var(--backgroundsec);
+    border-collapse: collapse;
+    transition: .1s;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+ 
+}
+
+.day:hover {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+/* width */
+.day:hover::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  /* Track */
+.day:hover::-webkit-scrollbar-track {
+    background: var(--backgroundsec);
+}
+  
+  /* Handle */
+.day:hover::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: var(--lightprimarycolor);
+}
+  
+  /* Handle on hover */
+.day:hover::-webkit-scrollbar-thumb:hover {
+    background: var(--primarycolor);
+}
+
+.day .addButton {
+    background-color: var(--background);
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    padding: 4px;
+    opacity: 0;
+}
+
+.day:hover .addButton {
+    background-color: var(--background);
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    padding: 4px;
+    opacity: 1;
+}
+
+.day:hover {
+    margin: 0;
+    width: 100%;
+    height: 160px;
+    border: 2px solid var(--bordercolor);
+
+    border-collapse: collapse;
+    cursor: pointer;
+}
+    
+.padding {
+    background-color: var(--lighthover);
+    border: 2px solid var(--background);;
+    margin: 0;
+    width: 100%;
+    height: 160px;
+}
+
+.dayContainer {
+    
+    width: 14%;
+    height: 14%;
+}
+
+.dayContainer, .day, .calendar, .padding {
+    border-collapse: collapse;
+}
+
+.dayContainer .currentDate {
+    background-color: var(--lightprimarycolor);
+    width: fit-content;
+    border-radius: 100px;
+    height: fit-content;
+    padding: 5px;
+}
+
+.dayContainer p {
+    margin: 10px;
+}
+
+

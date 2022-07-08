@@ -1,0 +1,58 @@
+.daycontainerMain {
+    background-color: var(--backgroundsec);
+    
+    border: 1px solid var(--bordercolor);
+    border-collapse:collapse;
+
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+.monthDaysContainer {
+    border-collapse:collapse;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.monthDaysContainer, .daycontainerMain {
+    
+    border-collapse: collapse;
+}
+
+
+
+
+.daycontainerMain .topContainer  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.daycontainerMain .optionsContainer {
+    opacity: 0;
+}
+.daycontainerMain:hover .optionsContainer {
+    opacity: 1;
+}
+
+.daycontainerMain .addEventButton {
+    background-color: var(--hovercolor);
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.daycontainerMain:hover {
+    background-color: var(--lighthover);
+}
+
+.dayValueContainerCurrent {
+    padding: 4px 7px 4px 7px;
+    border-radius: 100px;
+    background-color: var(--lightprimarycolor);
+}

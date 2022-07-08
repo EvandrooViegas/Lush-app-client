@@ -1,0 +1,115 @@
+.keepModalContainer {
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+
+
+.keepModalContainer .modalFormContainer {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin: 100px;
+}
+.keepModalContainer .inputArea {
+    margin: 10px;
+    width: 100%;
+}
+
+.keepModalContainer .inputArea input {
+    width: 95%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+
+    border-bottom: 1px solid var(--background);
+}
+
+.keepModalContainer .inputArea input:focus {
+    outline: none;
+}
+.keepModalContainer .jodit-wysiwyg {
+    background-color: white;
+}
+
+.modalFormContainer .topUpContainer .closeBtn {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 10px;
+    right: 0;
+
+}
+
+.modalFormContainer .topUpContainer .closeBtn button {
+    padding: 8px;
+    font-size: 26px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    color: var(--lightprimarycolor);
+}
+
+.modalFormContainer .topUpContainer .closeBtn button:hover {
+    cursor: pointer;
+}
+
+.modalFormContainer .bottomContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.modalFormContainer .topUpContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.modalFormContainer .bottomContainer .indicatorArea select{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--bordercolor);
+    border-radius: 3px;
+}
+
+.modalFormContainer .bottomContainer button{
+    color: white;
+    border: none;
+    background-color: var(--primarycolor);
+    margin-right: 0px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.modalFormContainer .jodit-toolbar__box:not(:empty) {
+    border: none;
+    background-color: none;
+}
+
+.keepModalContainer .jodit-wysiwyg {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--lightbackground);
+}
+.modalFormContainer .jodit-status-bar { 
+    opacity: 0;
+    resize: none;
+    background-color: aqua;
+}
+
+.modalFormContainer .jodit-editor__resize {
+    resize: none;
+}
+
+.jodit-container:not(.jodit_inline) {
+
+    border: none;
+    border-radius: 3px
+
+;
+}

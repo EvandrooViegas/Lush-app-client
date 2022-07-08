@@ -1,0 +1,75 @@
+.loginMain {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginMain .topContainer {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.loginMain .formContainer {
+    align-items: center;
+    padding: 60px;
+    width: 26%;
+    border-radius: 7px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    
+}
+
+.loginMain .formContainer .input {
+    margin: 10px;
+    width: 90%;
+}
+
+.loginMain .formContainer .btn-login {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 2px solid var(--background);
+    background-color: var(--lightbackground);
+}
+
+.loginMain .formContainer .btn-login:hover {
+    cursor: pointer;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 7px;
+    border: 2px solid var(--background);
+    background-color: var(--background);
+}
+
+.loginMain .formContainer input {
+    
+    padding: 14px;
+    background-color: var(--lightbackground);
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.loginMain .signup-btn-login {
+    background-color: transparent;
+    border: none;
+    margin-top: 60px;
+}  
+.loginMain .signup-btn-login small {
+    color: var(--primarycolor);
+}
+
+.loginMain .signup-btn-login small:hover {
+    cursor: pointer;
+}

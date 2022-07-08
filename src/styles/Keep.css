@@ -1,0 +1,140 @@
+.keepMain .keepButtonContianer .newEvent {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    padding: 8px;
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.keepMain .newEvent:hover {
+    cursor: pointer;
+    background-color: var(--hovercolor);
+    color: var(--lightbackground);
+}
+
+.modalContainerOpen {
+    background-color: aqua;
+    transition: 1s all;
+}
+
+
+.modalContainer {
+    display: none;
+    background-color: aqua;
+    transition: 1s all;
+}
+
+/*Idea Container*/
+
+.contentContainer .ideaContainer {
+    align-items: flex-end;
+    word-break: break-all;
+    height: fit-content;
+    width: 300px;
+    margin: 17px;
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+.contentContainer .ideaContainer:hover {
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+
+}
+
+
+.contentContainer .ideaContainer .topContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contentContainer {
+    margin: 20px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  
+}
+
+.redCircle {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.orangeCircle {
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.greenCircle {
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.ideaContainer .topContainer {
+    margin-bottom: 20px;
+}
+
+.ideaContainer .bottomContainer {
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ideaContainer .divider {
+    margin: 10px;
+    width: 95%;
+    height: 2px;
+    align-items: center;
+    background-color: var(--hovercolor);
+}
+
+.ideaContainer .deleteContainer {
+    opacity: 0;
+}
+
+.ideaContainer:hover .deleteContainer {
+    opacity: 1;
+    transition: .2s all;
+}
+
+.ideaContainer .deleteContainer button {
+    background-color: transparent;
+    border: none;
+    color: var(--lightprimarycolor);
+    font-size: 17px;
+    padding: 10px;
+}
+
+.ideaContainer .deleteContainer:hover {
+    background-color: var(--hovercolor);
+    border-radius: 100px;
+    cursor: pointer;
+}
+.ideaContainer .topUpContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+

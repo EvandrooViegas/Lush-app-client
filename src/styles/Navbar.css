@@ -1,0 +1,110 @@
+.navbarContainer .openBtn{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    margin: 20px;
+
+
+}
+
+.navbarContentContainer .topContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbarContainerOpen {
+    transition: .7s all;
+    background-color: rgb(241, 241, 241);
+    position: fixed;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+}
+
+.navbarContentContainer .link {
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: var(--lightbackground);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.navbarContentContainer .link:hover {
+    background-color: var(--background);
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.navbarContentContainer a:hover {
+
+    color: black;
+}
+.navbarContentContainer a {
+    color: rgb(37, 37, 37);
+}
+.navbarContainerOpen .navbarContentContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbarContainerOpen .closeBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    margin: 20px;
+
+}
+
+.navbarContainerOpen .navbarContentContainer li{
+    list-style: none;
+}
+.navbarContainerOpen .navbarContentContainer a{
+    text-decoration: none;
+}
+
+.navbarContentContainer .logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.navbarContentContainer .logoContainer .retha{
+    font-size: 40px;
+}
+
+.navbarContentContainer .bottomLinks .logoutBtn {
+    border: none;
+    background-color: transparent;
+}
+
+.navbarContentContainer .bottomLinks span{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.navbarContentContainer .bottomLinks {
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(230, 230, 230);
+}
+.navbarContentContainer .bottomLinks span:hover{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}

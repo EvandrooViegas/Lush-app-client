@@ -1,0 +1,150 @@
+
+.mainModalContianer {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.16);
+  
+}
+
+
+.calendarModalMain {
+    
+    padding: 20px;
+    width: 90%;
+    height: fit-content;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid var(--bordercolor);
+}
+
+.calendarModalMain .descriptionBox {
+    width: 90%;
+    padding: 10px;
+    border-bottom: none;
+    border: none;
+    margin-top: 10px;
+    background-color: var(--lightbackground);
+    resize: none;
+}
+
+.calendarModalMain .descriptionBox:focus {
+    border: none;
+    outline: none;
+}
+
+.calendarModalMain .inputArea {
+    text-align: left;
+    width: 90%;
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.calendarModalMain .inputArea:focus {
+    outline: none;
+}
+
+.calendarModalMain .closeButton {
+    font-size: 20px;
+    position: absolute;
+    top: 27px;
+    right: 27px;
+    border: none;
+    background: none;
+    color: var(--primarycolor);
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.calendarModalMain .closeButton:hover {
+    cursor: pointer;
+}
+
+.calendarModalMain .addButton {
+    color: white;
+    border: none;
+    background-color: var(--primarycolor);
+    margin-right: 0px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.calendarModalMain .updateButton {
+    height: 70%;
+    color: white;
+    border: none;
+    background-color: var(--primarycolor);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.calendarModalMain .deleteButton {
+    color: white;
+    border: none;
+    display: inline-flex;
+    margin-left: 10px;
+    text-align: center;
+    width: 30px;
+    background-color: var(--primarycolor);
+    margin-right: 0px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.calendarModalMain .addButton:hover {
+    cursor: pointer;
+    background-color: var(--lightprimarycolor);
+}
+
+.bottomContainer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.calendarModalMain .indicatorSelector {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--bordercolor);
+    border-radius: 3px;
+}
+
+.calendarModalMain .rightBtns {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.calendarModalMain .addKeepBtn {
+    height: 70%;
+    padding: 10px;
+    border: 2px solid var(--bordercolor);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.calendarModalMain .indicatorSelector:hover {
+    cursor: pointer;
+    outline: none;
+}
+
+.calendarModalMain .bottomContainer {
+
+    padding: 0px;
+    width: 92%;
+}
+
+
+
+
+
+

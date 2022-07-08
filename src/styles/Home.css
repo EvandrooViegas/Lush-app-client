@@ -1,0 +1,110 @@
+.home-main {
+    height: 100vh;
+}
+
+.home-main .contentContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+.home-main .contentContainer h1 {
+    font-size: 60px;
+}
+
+.home-main .leftContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+    justify-content: space-evenly;
+
+ 
+}
+.home-main .rightContainer {
+    padding: 20px;
+}
+
+.home-main .leftContainer .title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.home-main .leftContainer .buttonContainer {
+    text-align: left;
+    background-color: var(--lightprimarycolor);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-right: 6px;
+    padding: 15px 25px;
+    border: none;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    width: 190px;
+   
+}
+
+.home-main .leftContainer .buttonContainer .arrow {
+    margin-top: 6px;
+    margin-left: 30px;
+    transition: 1.4s;
+}
+.home-main .leftContainer .buttonContainer:hover {
+    cursor: pointer;
+}
+.home-main .leftContainer .buttonContainer:hover .arrow {
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: 60px;
+    transform: 3s;
+}
+
+
+
+
+.home-main .topContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.home-main .logoContainer {
+    margin: 20px;
+}
+
+.home-main .authContainer {
+    margin: 20px;
+}
+
+.home-main .authContainer .loginBtn {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 7px;
+    margin-right: 6px;
+    padding: 15px 35px;
+    border: none;
+    
+}
+
+.home-main .authContainer .createAccountBtn {
+    
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    margin-right: 6px;
+    padding: 15px 35px;
+    border: 1px solid black;
+    
+}
+
+.authContainer .createAccountBtn:hover, .authContainer .loginBtn:hover {
+    cursor: pointer;
+}

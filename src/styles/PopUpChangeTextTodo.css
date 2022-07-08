@@ -1,0 +1,53 @@
+.popup-main {
+    
+    width: 38%; 
+    position: absolute;
+    top: 0;
+    left: 29%;
+    background-color: var(--backgroundsec);
+    padding: 8px;
+    border: 2px solid var(--bordercolor);
+    border-radius: 0 0 10px 10px;
+}
+
+.popup-main .input {
+ 
+    padding: 4px;
+    min-width: 60%;
+    height: 20px;
+    border: none;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 7px;
+    
+}
+
+.popup-main .button  {
+    padding: 8px;
+    min-width: 20%;
+    margin-left: 10px;
+  
+    background-color: var(--primarycolor);
+    border: none;
+    border-radius: 8px;
+    color: white;
+        
+}
+
+.popup-main .button:hover  {
+    padding: 8px;
+    cursor: pointer;
+    min-width: 20%;
+    margin-left: 10px;
+ 
+    background-color: var(--primarycolor);
+    border: none;
+    border-radius: 8px;
+    color: white;
+        
+}
+
+
+.config-container {
+    align-items: center;
+    display: flex
+}

@@ -1,0 +1,147 @@
+.mainTodo {
+
+    padding: 30px;
+    margin: 20px;
+    
+}
+.textContainer {
+
+    display: flex;
+    width: 70%;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.formContainer {
+    width: 100%;
+}
+
+.todoConfigContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputContainer .inputTodo{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    background-color:var(--lightbackground);
+    border-radius: 7px;
+
+}
+
+.inputContainer .buttonTodo {
+    border: none;
+    color: white;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 7px;
+    padding: 10px;  
+    background-color: rgb(235, 60, 60);
+    cursor: pointer;
+
+}
+
+.todoConfigContainer {
+    border-bottom: 1.7px solid rgb(241, 241, 241);
+    padding: 10px;
+}
+
+.todoListContainer {
+   
+}
+.inputContainer .selectTodo {
+    padding: 10px;
+    cursor: pointer;
+    min-width: 40%;
+    border: none;
+    border: 1px solid var(--lightbackground);
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.inputContainer .optionIndicator {
+    border: none;
+}
+
+
+
+.todoContainer {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+}
+
+.optionsContainer {
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    line-height: 100%;
+    align-items: center;
+    justify-content: end;
+    align-content: flex-end;
+}
+
+.optionsContainer .deleteBtn {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(235, 60, 60);
+
+}
+
+.optionsContainer .updateBtn {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.optionsContainer .updateBtn:hover{
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: var(--hovercolor);
+}
+
+.optionsContainer .deleteBtn:hover {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: var(--hovercolor);
+}
+
+.textInput {
+    width: 70%;
+    border: none;
+    background: transparent;
+}
+
+.textInput:focus {
+    border: none;
+    outline: none;
+
+}
+
+.textInput:hover {
+    cursor: text;
+}
+
+
+

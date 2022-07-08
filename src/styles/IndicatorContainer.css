@@ -1,0 +1,32 @@
+.indicatorContainerGreen {
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.indicatorContainerRed {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.indicatorContainerOrange {
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.indicatorContainer {
+    transition: .7s;
+    padding: 8px;
+}
+
+.indicatorContainer:hover {
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 8px;
+    background-color: var(--hovercolor);
+}

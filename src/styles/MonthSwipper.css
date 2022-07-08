@@ -1,0 +1,9 @@
+.selectContainer {
+    cursor: pointer;
+    padding: 5px;
+    min-width: 40%;
+    border: none;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 7px;
+  
+}
