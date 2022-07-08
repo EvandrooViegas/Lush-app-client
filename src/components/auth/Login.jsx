@@ -20,7 +20,7 @@ function Login() {
     const LoginUser = async () => {
  
         try {   
-            await Axios.post("http://localhost:3001/login", { userEmail, userPassword })
+            await Axios.post(`${process.env.REACT_APP_API_URL}/login`, { userEmail, userPassword })
             .then((response) => {
 
                 if(response.data.type == "success") {

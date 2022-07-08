@@ -26,7 +26,7 @@ function App() {
         type: "danger"
       })
     } else {
-        await Axios.post("http://localhost:3001/signin", {
+        await Axios.post(`${process.env.REACT_APP_API_URL}/signin`, {
         userName,
         userUsername,
         userEmail,
