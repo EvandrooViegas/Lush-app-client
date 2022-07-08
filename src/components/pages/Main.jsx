@@ -22,7 +22,7 @@ function Dashboard() {
       setUserInfo(userDataObj)
     } 
     const getInspirationalQuote = () => {
-      Axios.get("http://api.quotable.io/random").then(res => {
+      Axios.get("https://api.quotable.io/random").then(res => {
         setInspirationalQuote(res.data.content)
         setInspirationalQuoteAuthor(res.data.author)
       })
