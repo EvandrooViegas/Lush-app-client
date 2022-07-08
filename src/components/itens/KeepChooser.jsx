@@ -18,7 +18,7 @@ function KeepChooser({KeepChooserIsOpen, setKeepChooserIsOpen, event}) {
         setAuthor(authorID)
 
         const getAllKeeps = async () => {
-            await Axios.get("http://localhost:3001/getideas").then(res => {
+            await Axios.get(`${process.env.REACT_APP_API_URL}/getideas`).then(res => {
                 const data = res.data 
                 setAllKeeps([...data])
                 console.log(allKeeps)
