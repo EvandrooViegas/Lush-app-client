@@ -12,7 +12,7 @@ import Main from './components/pages/Main'
 import './styles/App.css'
 function App() {
   
-  console.log(process.env)
+
   return (
     <Router>
 

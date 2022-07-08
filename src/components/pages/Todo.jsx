@@ -157,7 +157,7 @@ function Todo() {
     let input = e.target
     let inputValue = input.value
 
-    console.log(inputValue)
+
 
   
     const id = todo._id
@@ -167,7 +167,7 @@ function Todo() {
     if(inputValue) {
         todo.text = inputValue
         setTodoList([...todoList])
-        console.log(inputValue)
+       
         Axios.put(`${process.env.REACT_APP_API_URL}/updatetodo`, {id, newTodoTextValue}).then((res) => {
           setTodoList([...todoList, {text: inputValue, _id: todo._id, isCompleted: todo.isCompleted, author: todo.author, indicator: todo.indicator}])
         })
@@ -221,7 +221,7 @@ function Todo() {
                     <div className="textContainer">
                 
                       <input type="text" defaultValue={todo.text} onChange={(e) => updateTodo(todo, e)} className='textInput'/>
-                      {/* {console.log(todo)} */}
+               
                     </div>
                     <div className="optionsContainer">
                       <button onClick={() => deleteTodo(todo._id)} className="deleteBtn"><MdOutlineDeleteOutline /></button>

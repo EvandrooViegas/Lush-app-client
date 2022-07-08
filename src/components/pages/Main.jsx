@@ -47,7 +47,7 @@ function Dashboard() {
 
     const getAllIdeas = () => {
       Axios.get(`${process.env.REACT_APP_API_URL}/getideas`).then(res => {
-        console.log(res.data)
+
         setAllIdeas(res.data)
       })
     }
@@ -102,10 +102,7 @@ function Dashboard() {
         </div>
 
 
-        <div className="inspirationalQuoteContainer">
-          <p>{inspirationalQuote}</p>
-          <p>by {inspirationalQuoteAuthor}</p>
-        </div>
+   
 
         <div className="contentContainer">
           <div className="ideas-container" onClick={() => navigateTo("keep")}>
